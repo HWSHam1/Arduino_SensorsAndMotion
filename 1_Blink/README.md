@@ -21,7 +21,7 @@ One of the classic but most important projects for novices is the "blink" projec
 
 Now that we know the components we can set up our Arduino as shown below.
 
-![CircuitDiagram Task1](CircuitDiagram Task1.jpg)
+![CircuitDiagram](CircuitDiagram Task1.jpg)
 
 #
 # **Programming**
@@ -36,11 +36,11 @@ Open File -> Example -> Basic -> Blink
 
 The code has 2 sections: void setup and void loop.
 
-In the void setup initialize the LED\_BUILTIN pin as OUTPUT.
+In the void setup initialize the LED\_BUILTIN pin, which is D13 for Aruino UNO, as OUTPUT.
 
 ![](RackMultipart20230816-1-2gkrdo_html_20a5cb5bcb7b2ba6.png)
 
-The void loop function can be used to turn on and turn off built in LED of Arduino. This can be visible by putting certain delay between ON and OFF actions. Built in LED can be turned ON and OFF or HIGH and LOW using digital write function.
+The void loop function can be used to turn on and turn off LED. This can be visible by putting certain delay between ON and OFF actions. LED can be turned ON and OFF or HIGH and LOW using digital write function. Turning the LED to HIGH, supplies 5V to the LED, and while turning it OFF, it comes back to 0V.
 
 ![](RackMultipart20230816-1-2gkrdo_html_c520f64c60d8db4d.png)
 
