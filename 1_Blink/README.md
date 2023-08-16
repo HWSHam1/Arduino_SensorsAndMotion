@@ -33,7 +33,7 @@ Open up the [Arduino IDE](https://heriotwatt.sharepoint.com/sites/ArduinoTutoria
 
 Open File -> Example -> Basic -> Blink
 
-![](RackMultipart20230816-1-2gkrdo_html_c99b430573eb98c9.png)
+![FilePath](FilePath.jpg)
 
 ## **Code explained**
 
@@ -41,11 +41,11 @@ The code has 2 sections: void setup and void loop.
 
 In the void setup initialize the LED\_BUILTIN pin, which is D13 for Aruino UNO, as OUTPUT.
 
-![](RackMultipart20230816-1-2gkrdo_html_20a5cb5bcb7b2ba6.png)
+![SetupCode](SetupCode.jpg)
 
 The void loop function can be used to turn on and turn off LED. This can be visible by putting certain delay between ON and OFF actions. LED can be turned ON and OFF or HIGH and LOW using digital write function. Turning the LED to HIGH, supplies 5V to the LED, and while turning it OFF, it comes back to 0V.
 
-![](RackMultipart20230816-1-2gkrdo_html_c520f64c60d8db4d.png)
+![LoopCode](LoopCode.png)
 
 #
 # **Verify and Upload**
