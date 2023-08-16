@@ -11,7 +11,7 @@ Arduino Experiments
 One of the classic but most important projects for novices is the "blink" project, where you will be connecting a light-emitting diode (an LED) to the Arduino, and programming it to turn off and on.
 
 #
-# **Required Components**
+### **Required Components**
 
 - [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)
 - [LED](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)
@@ -20,14 +20,14 @@ One of the classic but most important projects for novices is the "blink" projec
 - [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)
 
 #
-# **Circuit**
+### **Circuit**
 
 Now that we know the components we can set up our Arduino as shown below.
 
 ![CircuitDiagramTask1](CircuitDiagramTask1.png)
 
 #
-# **Programming**
+### **Programming**
 
 Open up the [Arduino IDE](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino-IDE-basics.aspx) on your computer.
 
@@ -35,7 +35,7 @@ Open File -> Example -> Basic -> Blink
 
 ![FilePath](FilePath.jpg)
 
-## **Code explained**
+### **Code explained**
 
 The code has 2 sections: void setup and void loop.
 
@@ -48,7 +48,7 @@ The void loop function can be used to turn on and turn off LED. This can be visi
 ![LoopCode](LoopCode.jpg)
 
 #
-# **Verify and Upload**
+### **Verify and Upload**
 
 Connect the board using its cable to the computer.
 
