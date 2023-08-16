@@ -23,7 +23,6 @@ Now that we know the components we can set up our Arduino as shown below.
 
 ![CircuitDiagramTask1](1_Blink/CircuitDiagramTask1.png)
 
-
 #
 # **Programming**
 
