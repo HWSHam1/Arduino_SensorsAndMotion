@@ -1,9 +1,6 @@
 HERIOT - WATT UNIVERSITY
-
 School of Engineering & Physical Sciences
-
 Mechanical Engineering Laboratory
-
 Arduino Experiments
 
 # Introduction: Blink
@@ -24,7 +21,7 @@ One of the classic but most important projects for novices is the "blink" projec
 
 Now that we know the components we can set up our Arduino as shown below.
 
-![](RackMultipart20230816-1-2gkrdo_html_9b88eefc3cb155b3.png)
+![CircuitDiagram](CircuitDiagram Task1.jpg)
 
 #
 # **Programming**
