@@ -15,7 +15,7 @@ This task can be divided into 4 sub tasks.
 First consider the scenario of car door opening and closing, and based on that the lights inside the car will ON and OFF. Here instead of door, we are using a push button. The door open will correspond to push button pressed and car door closed will correspond to push button released. Instead of the lights in the car, we will use LED. You can use Blue LED for the first 3 subtasks.
 
 #
-### **Required Components**
+#### **Required Components**
 
 - [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)
 - [LED](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)
