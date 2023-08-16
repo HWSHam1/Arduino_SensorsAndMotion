@@ -15,7 +15,7 @@ This task can be divided into 4 sub tasks.
 First consider the scenario of car door opening and closing, and based on that the lights inside the car will ON and OFF. Here instead of door, we are using a push button. The door open will correspond to push button pressed and car door closed will correspond to push button released. Instead of the lights in the car, we will use LED. You can use Blue LED for the first 3 subtasks.
 
 #
-# **Required Components**
+## **Required Components**
 
 - [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)
 - [LED](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)
@@ -24,7 +24,7 @@ First consider the scenario of car door opening and closing, and based on that t
 - [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)
 
 #
-# **Circuit**
+## **Circuit**
 
 Now that we know the components we can set up our Arduino as shown below.
 
@@ -35,12 +35,12 @@ Now that we know the components we can set up our Arduino as shown below.
 Open up the [Arduino IDE](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino-IDE-basics.aspx) on your computer.
 
 
-## **Code explained**
+### **Code explained**
 
 The code has 2 sections: void setup and void loop.
 
 #
-# **Verify and Upload**
+## **Verify and Upload**
 
 Connect the board using its cable to the computer.
 
