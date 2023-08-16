@@ -1,6 +1,9 @@
 HERIOT - WATT UNIVERSITY
+
 School of Engineering & Physical Sciences
+
 Mechanical Engineering Laboratory
+
 Arduino Experiments
 
 # Introduction: Blink
