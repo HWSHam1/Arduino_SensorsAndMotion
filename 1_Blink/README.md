@@ -21,7 +21,7 @@ One of the classic but most important projects for novices is the "blink" projec
 
 Now that we know the components we can set up our Arduino as shown below.
 
-![CircuitDiagram](1_Blink/CircuitDiagramTask1.png)
+![CircuitDiagramTask1](1_Blink/CircuitDiagramTask1.png)
 
 #
 # **Programming**
