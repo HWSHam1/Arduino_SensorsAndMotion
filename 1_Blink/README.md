@@ -41,11 +41,11 @@ The code has 2 sections: void setup and void loop.
 
 In the void setup initialize the LED\_BUILTIN pin, which is D13 for Aruino UNO, as OUTPUT.
 
-![SetupCode](SetupCode.jpg)
+<img src="SetupCode.jpg" width="600"/>
 
 The void loop function can be used to turn on and turn off LED. This can be visible by putting certain delay between ON and OFF actions. LED can be turned ON and OFF or HIGH and LOW using digital write function. Turning the LED to HIGH, supplies 5V to the LED, and while turning it OFF, it comes back to 0V.
 
-<img src="LoopCode.jpg" width="500"/>
+<img src="LoopCode.jpg" width="600"/>
 
 #
 ### **Verify and Upload**
