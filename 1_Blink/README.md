@@ -6,7 +6,7 @@ Mechanical Engineering Laboratory
 
 Arduino Experiments
 
-# Introduction: Blink
+# Task1: Blink
 
 One of the classic but most important projects for novices is the "blink" project, where you will be connecting a light-emitting diode (an LED) to the Arduino, and programming it to turn off and on.
 
