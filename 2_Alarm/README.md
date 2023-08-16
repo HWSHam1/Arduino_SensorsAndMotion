@@ -24,23 +24,23 @@ First consider the scenario of car door opening and closing, and based on that t
 - [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)
 
 #
-### **Circuit**
+#### **Circuit**
 
 Now that we know the components we can set up our Arduino as shown below.
 
 
 #
-### **Programming**
+#### **Programming**
 
 Open up the [Arduino IDE](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino-IDE-basics.aspx) on your computer.
 
 
-### **Code explained**
+#### **Code explained**
 
 The code has 2 sections: void setup and void loop.
 
 #
-### **Verify and Upload**
+#### **Verify and Upload**
 
 Connect the board using its cable to the computer.
 
@@ -57,19 +57,19 @@ Try to experiment with increasing, decreasing or removing the delay.
 Now consider the situation that the light will turn on when door is opened, but when the door is closed, it will turn off only after 2 seconds.
 
 #
-### **Circuit**
+#### **Circuit**
 
 Now that we know the components, we can set up our Arduino as shown below.
 
 ![](RackMultipart20230816-1-nchyy_html_9b88eefc3cb155b3.png)
 
 #
-### **Programming**
+#### **Programming**
 
 Open up the [Arduino IDE](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino-IDE-basics.aspx) on your computer.
 
 
-### **Code explained**
+#### **Code explained**
 
 The code has 2 sections: void setup and void loop.
 
@@ -79,17 +79,17 @@ The code has 2 sections: void setup and void loop.
 Now consider the situation of 2 doors. If any one of the door is open, the light will be ON. While both the doors are closed, the light will be OFF.
 
 #
-### **Circuit**
+#### **Circuit**
 
 Now that we know the components we can set up our Arduino as shown below.
 
 #
-### **Programming**
+#### **Programming**
 
 Open up the [Arduino IDE](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino-IDE-basics.aspx) on your computer.
 
 
-### **Code explained**
+#### **Code explained**
 
 The code has 2 sections: void setup and void loop.
 
@@ -99,17 +99,17 @@ The code has 2 sections: void setup and void loop.
 Now consider the situation of 2 doors and trunk. To make it little bit more complicated, in this case we will 3 LEDs. If doors are only open (either 1 door or both doors), Red light will be ON. If trunk is only open, Blue light will be ON. If trunk and at least one of doors is open, Green light will be ON. While both the doors and the trunk are closed, the light will be OFF.
 
 #
-### **Circuit**
+#### **Circuit**
 
 Now that we know the components we can set up our Arduino as shown below.
 
 
 #
-### **Programming**
+#### **Programming**
 
 Open up the [Arduino IDE](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino-IDE-basics.aspx) on your computer.
 
 
-### **Code explained**
+#### **Code explained**
 
 The code has 2 sections: void setup and void loop.
