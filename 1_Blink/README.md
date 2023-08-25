@@ -40,7 +40,7 @@ Open File -> Example -> Basic -> Blink
 The code has mainly 2 sections: void setup and void loop.
 Before starting to write these functions, we need to initialize all the variables.
 Here we need to initialize a variable for assigning the pin number, which is connected to the LED.
-<img src="/1_Blink/InitializingVariable.png" width="500"/>
+<img src="/1_Blink/InitializingVariable.png" width="700"/>
 
 In the void setup assign LEDpin as OUTPUT.
 
