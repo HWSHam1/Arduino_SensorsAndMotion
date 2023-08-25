@@ -9,17 +9,20 @@
   
 */
 
+int LEDpin = 13;                //Initializing a variable LEDpin of type int, and assigning pin number 13 to that
+
 // The setup() method runs once when you press reset or power on the board.
+
 void setup()
  {
-  pinMode(LED_BUILTIN, OUTPUT);    // initialize the LED Builtin port, which is port 13 for Arduino Uno, as an output
+  pinMode(LEDpin, OUTPUT);      // initialize the LEDpin as an output
  }
 
 // The loop() method runs over and over again as long as the Arduino is powered on.
 void loop()
  {
-  digitalWrite(LED_BUILTIN, HIGH); // turn the LED on (HIGH is the voltage level)
-  delay(1000);             // Wait for 1500 milliseconds
-  digitalWrite(LED_BUILTIN, LOW); // turn the LED off (LOW is the voltage level)
-  delay(1000);             // Wait for 1500 milliseconds
+  digitalWrite(LEDpin, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(1000);                 // Wait for 1000 milliseconds
+  digitalWrite(LEDpin, LOW);  // turn the LED off (LOW is the voltage level)
+  delay(1000);                // Wait for 1000 milliseconds
  }
