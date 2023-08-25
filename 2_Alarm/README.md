@@ -20,6 +20,7 @@ First consider the scenario of car door opening and closing, and based on that t
 - [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)
 - [LED](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)
 - [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)
+- [Pushbutton](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Push-button.aspx))
 - [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)
 - [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)
 
@@ -57,6 +58,16 @@ Try to experiment with increasing, decreasing or removing the delay.
 Now consider the situation that the light will turn on when door is opened, but when the door is closed, it will turn off only after 2 seconds.
 
 #
+#### **Required Components**
+
+- [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)
+- [LED](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)
+- [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)
+- [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)
+- [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)
+
+
+#
 #### **Circuit**
 
 Now that we know the components, we can set up our Arduino as shown below.
@@ -79,6 +90,16 @@ The code has 2 sections: void setup and void loop.
 Now consider the situation of 2 doors. If any one of the door is open, the light will be ON. While both the doors are closed, the light will be OFF.
 
 #
+#### **Required Components**
+
+- [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)
+- [LED](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)
+- [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)
+- [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)
+- [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)
+
+
+#
 #### **Circuit**
 
 Now that we know the components we can set up our Arduino as shown below.
@@ -97,6 +118,16 @@ The code has 2 sections: void setup and void loop.
 ## **Subtask 4**
 
 Now consider the situation of 2 doors and trunk. To make it little bit more complicated, in this case we will 3 LEDs. If doors are only open (either 1 door or both doors), Red light will be ON. If trunk is only open, Blue light will be ON. If trunk and at least one of doors is open, Green light will be ON. While both the doors and the trunk are closed, the light will be OFF.
+
+#
+#### **Required Components**
+
+- [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)
+- [LED](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)
+- [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)
+- [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)
+- [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)
+
 
 #
 #### **Circuit**
