@@ -37,6 +37,8 @@ Open File -> Example -> Basic -> Blink
 
 ### **Code explained**
 The full code can be found [here](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/1_Blink/blink.ino).
+
+
 The code has mainly 2 sections: void setup and void loop.
 Before starting to write these functions, we need to initialize all the variables.
 Here we need to initialize a variable for assigning the pin number, which is connected to the LED.
