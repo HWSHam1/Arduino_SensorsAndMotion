@@ -59,12 +59,6 @@ Figure 2: RGB LED
 #
 ### **Required Components**
 
-- [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)
-- [LED RGB](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)
-- [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)
-- [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)
-- [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)
-- Potentiometer
 
 | Number            |    Components   | 
 | ------------------| --------------- |
@@ -87,10 +81,10 @@ PWM can be achieved with Arduino using the “analogWrite” command. The analog
 analogWrite(pin, value);
 
 
-        ·       pin – denotes which number pin on the Arduino the PWM is applied (note: only pins marked with a “~” on the Arduino connectors support PWM) 
+    +    pin – denotes which number pin on the Arduino the PWM is applied (note: only pins marked with a “~” on the Arduino connectors support PWM) 
 
 
-        ·       value – is the duty cycle of the PWM signal to be applied, ranging from 0 (for 0%) to 255 (for 100%)
+     +   value – is the duty cycle of the PWM signal to be applied, ranging from 0 (for 0%) to 255 (for 100%)
 
 To display information on your monitor first add Serial.begin(9600); in setup(); then you can use Serial.print(); or Serial.println(); to display on Serial Monitor which is located on the top right in Arduino IDE.
 
