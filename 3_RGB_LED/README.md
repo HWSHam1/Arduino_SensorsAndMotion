@@ -69,30 +69,13 @@ Figure 2: RGB LED
 | Number            |    Components   | 
 | ------------------| --------------- |
 |  [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)      | 1               |
-|  RGB LED          | 1               |
-|  330Ω resistor    | 3               |
-|  Bread board      | 1               |
-|  Potentiometer    | 1               |
-|  Jumper Cables    |                 |
+|  [LED RGB](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)          | 1               |
+|  [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)    | 3               |
+|  [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)     | 1               |
+|  [Potentiometer](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Potentiometer.aspx)    | 1               |
+|  [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)    |                 |
 
 
-
-        ·       Arduino UNO 
-
-
-        ·       Potentiometer
-
-
-        ·       LED RGB
-
-
-        ·       3* 330Ω resistor for LED
-
-
-        ·       Breadboard 
-
-
-        ·       Jumper cables 
 
 
 ## **Procedure: **
