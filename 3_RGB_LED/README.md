@@ -68,7 +68,7 @@ Figure 2: RGB LED
 
 | Number            |    Components   | 
 | ------------------| --------------- |
-|  Arduino Uno      | 1               |
+|  [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)      | 1               |
 |  RGB LED          | 1               |
 |  330Ω resistor    | 3               |
 |  Bread board      | 1               |
