@@ -56,7 +56,25 @@ Changing the three values would give you different colours. Some examples of col
 Figure 2: RGB LED
 
 
-## **Required Components:**
+#
+### **Required Components**
+
+- [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)
+- [LED RGB](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)
+- [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)
+- [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)
+- [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)
+- Potentiometer
+
+| Number  |    Components   |
+| ------  | --------------- |
+|   1     | Arduino Uno     |
+|   1     | RGB LED         |
+|   3     | 330Ω resistor   |
+|   1     | Bread board     |
+|   1     | Jumper Cables   |
+|   1     | Potentiometer   |
+
 
 
         ·       Arduino UNO 
