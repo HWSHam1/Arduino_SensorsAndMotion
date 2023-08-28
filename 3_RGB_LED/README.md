@@ -66,14 +66,14 @@ Figure 2: RGB LED
 - [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)
 - Potentiometer
 
-| Number  |    Components   |
-| ------  | --------------- |
-|   1     | Arduino Uno     |
-|   1     | RGB LED         |
-|   3     | 330Ω resistor   |
-|   1     | Bread board     |
-|   1     | Jumper Cables   |
-|   1     | Potentiometer   |
+| Number            |    Components   | 
+| ------            | --------------- |
+|  Arduino Uno     | 1               |
+|  RGB LED         | 1               |
+|  330Ω resistor    | 3               |
+|  Bread board      |  1              |
+|  Jumper Cables    |                 |
+|  Potentiometer    | 1               |
 
 
 
