@@ -67,13 +67,13 @@ Figure 2: RGB LED
 - Potentiometer
 
 | Number            |    Components   | 
-| ------            | --------------- |
-|  Arduino Uno     | 1               |
-|  RGB LED         | 1               |
+| ------------------| --------------- |
+|  Arduino Uno      | 1               |
+|  RGB LED          | 1               |
 |  330Ω resistor    | 3               |
-|  Bread board      |  1              |
-|  Jumper Cables    |                 |
+|  Bread board      | 1               |
 |  Potentiometer    | 1               |
+|  Jumper Cables    |                 |
 
 
 
