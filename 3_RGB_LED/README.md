@@ -19,7 +19,7 @@ If we take controlling the speed of a motor as an example, then a commonly used 
 An alternative mode of controlling the speed of the motor is Pulse Width Modulation. Essentially it works by only involving “on” and “off” states. PWM varies the amount of time that the blinking pin or a motor spends HIGH vs. the time it spends LOW. If it spends most of its time LOW, the LED will look dim. Because the pin is blinking much faster than your eye can detect, the Arduino creates the illusion of a “true” analogue output. 
 
 The ratio of “on” time to the total time is called the duty cycle, and variation of the duty cycle can be used to control the motor speed.
-
+<img src="/rgb_led/PulseWidthModulation.png" width="600"/>
 Figure 1: Pulse Width Modulation
 
  
