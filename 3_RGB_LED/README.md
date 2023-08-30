@@ -37,6 +37,16 @@ The RGB colour system constructs visible colours from combinations of Red, Green
 
 In the RGB spectrum the main colours are:
 
+- Red (255,0,0)
+- Green (0,255,0)
+- Blue (0,0,255)
+- [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)
+- [LED](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)
+- [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)
+- [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)
+- [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)
+
+
 
         ·       Red (255,0,0)
 
