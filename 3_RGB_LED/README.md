@@ -71,7 +71,7 @@ Figure 2: RGB LED
 
 
 
-
+#
 ## **Procedure **
 
 In this experiment, PWM will be used to control the light output of a multicolour LED.
