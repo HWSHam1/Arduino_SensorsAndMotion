@@ -22,7 +22,7 @@ The ratio of “on” time to the total time is called the duty cycle, and varia
 
 <p align="center">
   <img src="/3_RGB_LED/PulseWidthModulation.png" width="400" title="Pulse Width Modulation">
-  
+  Figure 1: Pulse Width Modulation
 </p>
 
 Figure 1: Pulse Width Modulation
