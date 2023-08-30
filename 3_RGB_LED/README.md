@@ -20,6 +20,13 @@ An alternative mode of controlling the speed of the motor is Pulse Width Modulat
 
 The ratio of “on” time to the total time is called the duty cycle, and variation of the duty cycle can be used to control the motor speed.
 
+<p align="center">
+  <img src="/3_RGB_LED/PulseWidthModulation.png" width="350" title="hover text">
+  
+</p>
+
+xxxxxx
+
 ![plot](/3_RGB_LED/PulseWidthModulation.png)
 
 <img src="/3_RGB_LED/PulseWidthModulation.png" width="400"/>
