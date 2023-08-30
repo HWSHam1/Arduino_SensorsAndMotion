@@ -50,6 +50,7 @@ In the void setup assign LEDpin as OUTPUT.
 
 The void loop function can be used to turn on and turn off LED. This can be visible by putting certain delay between ON and OFF actions. LED can be turned ON and OFF or HIGH and LOW using digital write function. Turning the LED to HIGH, supplies 5V to the LED, and while turning it OFF, it comes back to 0V.
 
+
 <img src="/1_Blink/LoopFunction.png" width="600"/>
 
 #
