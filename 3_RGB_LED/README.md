@@ -76,8 +76,10 @@ PWM can be achieved with Arduino using the “analogWrite” command.
 ## **Task 1**
 
 Write a program to light the LED in red, blue, and green. Try lighting the LED with other colours. 
+The code for this task can be found here: [changeColours.ino](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/3_RGB_LED/rgb_led/changeColours.ino)
 
-
+### **Code Explained**
+Code has 2 parts, set up function and loop function.
 ## **Task 2**
 
 Write a program to slowly fade the red LED in and out, you may find the program “fading” under File/Examples/03.Analog useful.
