@@ -93,7 +93,9 @@ Now modify the program to fade each LED sequentially (i.e. fade red in, red out,
   <img src="/3_RGB_LED/RGB_LED_CircuitDiagram.png" width="400">
   
 </p>
+<p align="center">
 Figure 4: Circuit for Tasks 1,2,3
+</p>
 
 
 ## **Task 4**
@@ -104,6 +106,8 @@ Once the program is working correctly for the previous step, make sure the poten
   <img src="/3_RGB_LED/CircuitDiagram.png" width="400">
   
 </p>
+<p align="center">
 Figure 5: Circuit for Task 4
+</p>
 
 
