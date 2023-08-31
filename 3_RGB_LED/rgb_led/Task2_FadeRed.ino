@@ -21,14 +21,10 @@ void setup()
  // Sets the data rate in bits per second (baud) for serial data transmission.
   Serial.begin(9600); 
   
-
   // Set the pins defined by redPin etc. as outputs
   pinMode(redPin, OUTPUT);
   pinMode(greenPin, OUTPUT);
   pinMode(bluePin, OUTPUT);
-  
-  // Set the pin defined by potPin as an input
-  pinMode(potPin, INPUT);
   
 }
 
