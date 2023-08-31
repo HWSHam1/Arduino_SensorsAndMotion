@@ -7,9 +7,9 @@
    
  */
 
-int redPin = 11; 
+int redPin = 9; 
 int bluePin = 10;
-int greenPin = 9;
+int greenPin = 11;
 
 // Adjust the brightness of the RGB LED
 int brightness = 0;    // how bright the LED is
@@ -26,9 +26,6 @@ void setup()
   pinMode(redPin, OUTPUT);
   pinMode(greenPin, OUTPUT);
   pinMode(bluePin, OUTPUT);
-  
-  // Set the pin defined by potPin as an input
-  pinMode(potPin, INPUT);
   
 }
  
