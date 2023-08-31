@@ -107,6 +107,3 @@ Once the program is working correctly for the previous step, make sure the poten
 Figure 5: Circuit for Task 4
 
 
----
-
-This will need to be checked. Some off-the-shelf RGB LEDs have the pins in a different order (e.g. R,B,G). Check with whatever we decide to order and update this accordingly.
