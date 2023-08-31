@@ -8,10 +8,10 @@
  */
 
 // The RGB LED has four pins, longest one for GND, and other 3 legs corresponds to red, blue and green.
-// Initializing pin number 11, 10, 9 as redPin, greenPin and bluePin respectively.
-int redPin = 11; 
-int greenPin = 10;
-int bluePin = 9;
+// Initializing pin number 9, 10, 11 as redPin, bluePin and greenPin respectively.
+int redPin = 9; 
+int bluePin = 10;
+int greenPin = 11;
  
 // Setup function
 void setup()
@@ -24,8 +24,6 @@ void setup()
   pinMode(greenPin, OUTPUT);
   pinMode(bluePin, OUTPUT);
   
-  // Set the pin defined by potPin as an input
-  pinMode(potPin, INPUT);  
  }
  
 // loop function
