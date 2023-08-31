@@ -90,7 +90,7 @@ Write a program to slowly fade the red LED in and out, you may find the program 
 Now modify the program to fade each LED sequentially (i.e. fade red in, red out, green in, green out)
 
 <p align="center">
-  <img src="/3_RGB_LED/CircuitDiagram.png" width="400">
+  <img src="/3_RGB_LED/RGB_LED_CircuitDiagram.png" width="400">
   
 </p>
 Figure 4: Circuit for Tasks 1,2,3
