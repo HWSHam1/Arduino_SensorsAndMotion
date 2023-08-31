@@ -7,13 +7,13 @@
    
  */
 
-int redPin = 11; 
+int redPin = 9; 
 int bluePin = 10;
-int greenPin = 9;
+int greenPin = 11;
 
 
 // Control the brightness using a potentiometer
-int potPin = 0;    // select the input pin for the potentiometer
+int potPin = A0;    // select the input pin for the potentiometer
 int val = 0;       // variable to store the value coming from the potentiometer
 
 float highestValueFromPotentiometer = 1023; // Set limiting value of potentiometer
@@ -40,7 +40,7 @@ void loop()
 {
   
   val = analogRead(potPin); //highestValueFromPotentiometer might need adjustment depending on the value you get from the potentiometer
-  Serial.println(highestValueFromPotentiometer) //You can check the results from the pot by printing them to the serial window
+  Serial.println(highestValueFromPotentiometer); //You can check the results from the pot by printing them to the serial window
   value = val/highestValueFromPotentiometer*255; //The highest value you can get when val == highestValueFromPotentiometer
   
   analogWrite(redPin, value);
