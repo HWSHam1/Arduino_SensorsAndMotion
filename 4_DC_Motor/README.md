@@ -25,8 +25,16 @@ An alternative mode of controlling the speed of the motor is Pulse Width Modulat
 The ratio of "on" time to the total time is called the duty cycle, and variation of the duty cycle can be used to control the motor speed.
 
 ## ![](RackMultipart20230831-1-c9h0xs_html_6d576bbad04b9f2e.png)
+<p align="center">
+  <img src="/4_DC_Motor/Images/PWM.png" width="400" title="Pulse Width Modulation">
+  
+</p>
 
-_Figure 1: Pulse Width Modulation_
+<p align="center">
+Figure 1: Pulse Width Modulation
+</p>
+
+
 
 ## Required Components:
 
@@ -44,14 +52,6 @@ _Figure 1: Pulse Width Modulation_
 |  [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)    |                 |
 
 
-- Arduino UNO
-- Potentiometer
-- Transistor (P2N2222A or similar)
-- Diode (1N4148 or similar)
-- DC motor
-- 330Ω resistor
-- Breadboard
-- Jumper cables
 
 ## Procedure:
 
@@ -77,7 +77,17 @@ Try slowly accelerating the motor to full speed, then back down to zero.
 
 ![](RackMultipart20230831-1-c9h0xs_html_e89fa1e370771bbb.png)
 
-_Figure 2: Circuit for Tasks 1 and 2_
+
+<p align="center">
+  <img src="/4_DC_Motor/Images/Circuit Diagram 1.png" width="400" >
+  
+</p>
+
+<p align="center">
+Figure 2: Circuit for Tasks 1 and 2
+</p>
+
+
 
 ##
 
@@ -90,7 +100,13 @@ _Figure 2: Circuit for Tasks 1 and 2_
 Using a DC motor driver and power supply, create a circuit and program that can read the position of a potentiometer and based on this adjust the speed of a motor.
 
 ![](RackMultipart20230831-1-c9h0xs_html_1797f248b3db1e4d.png)
+<p align="center">
+  <img src="/4_DC_Motor/Images/Circuit Diagram 2.png" width="400" >
+  
+</p>
 
-_Figure 3: Circuit for Task 3_
+<p align="center">
+Figure 3: Circuit for Task 3
+</p>
 
-2/4
+
