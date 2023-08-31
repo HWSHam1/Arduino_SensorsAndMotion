@@ -89,6 +89,10 @@ Write a program to slowly fade the red LED in and out, you may find the program 
 
 Now modify the program to fade each LED sequentially (i.e. fade red in, red out, green in, green out)
 
+<p align="center">
+  <img src="/3_RGB_LED/CircuitDiagram.png" width="400">
+  
+</p>
 Figure 4: Circuit for Tasks 1,2,3
 
 
@@ -96,6 +100,10 @@ Figure 4: Circuit for Tasks 1,2,3
 
 Once the program is working correctly for the previous step, make sure the potentiometer middle pin is connected to A0 on the Arduino and modify the program to change the speed of the fading depending on the potentiometer position. This can be done by reading the voltage at A0 and changing the value added to “fadeValue” each time (you may use the “ReadAnalogVoltage” example program to remind yourself on how to do this).
 
+<p align="center">
+  <img src="/3_RGB_LED/CircuitDiagram.png" width="400">
+  
+</p>
 Figure 5: Circuit for Task 4
 
 
