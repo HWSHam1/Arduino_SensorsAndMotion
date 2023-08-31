@@ -3,7 +3,7 @@
  Mechanical Engineering Laboratory
  Arduino Experiments
  
- Pulse Width Modulation: RGB LED control
+ RGB LED control: FadeRed
    
  */
 
