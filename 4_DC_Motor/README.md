@@ -220,6 +220,6 @@ You are tasked with creating an Arduino sketch (code) that accomplishes the foll
 6. Upload the code to the Arduino board.
 
 
-##### *The code for this task can be found [here](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/4_DC_Motor/dc_motor_control/Task3_potentiometerControl.ino)*
+##### *The code for this task can be found [Task3_potentiometerControl.ino](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/4_DC_Motor/dc_motor_control/Task3_potentiometerControl.ino)*
 
 
