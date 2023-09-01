@@ -10,6 +10,8 @@ Arduino Experiments
 
 Pulse Width Modulation: DC Motor Control
 
+## 
+
 ## Introduction:
 
 Motors are used for numerous things in our daily lives, and the Arduino can control them. Here we'll use pulse-width modulation (PWM) to vary the speed of a motor.
@@ -163,17 +165,6 @@ Your task is to create an Arduino sketch (code) that accomplishes the following:
 
 Create an Arduino sketch that allows you to read the position of a potentiometer and based on this adjust the speed of a motor. The potentiometer input will determine the motor speed, and the motor's speed will be adjusted based on the potentiometer's position.
 
-**Circuit Diagram:**
-
-<p align="center">
-  <img src="/4_DC_Motor/Images/Circuit Diagram 2.png" width="400" >
-  
-</p>
-
-<p align="center">
-Figure 3: Circuit for Task 3
-</p>
-
 
 **Components Required:**
 
@@ -188,6 +179,17 @@ Figure 3: Circuit for Task 3
 |  [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)     | 1               |
 |  [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)    |                 |
 
+
+**Circuit Diagram:**
+
+<p align="center">
+  <img src="/4_DC_Motor/Images/Circuit Diagram 2.png" width="400" >
+  
+</p>
+
+<p align="center">
+Figure 3: Circuit for Task 3
+</p>
 
 
 **Task Description:**
