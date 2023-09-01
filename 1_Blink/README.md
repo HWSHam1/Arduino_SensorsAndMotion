@@ -6,62 +6,53 @@ Mechanical Engineering Laboratory
 
 Arduino Experiments
 
+##
+
 # Task1: Blink
 
-One of the classic but most important projects for novices is the "blink" project, where you will be connecting a light-emitting diode (an LED) to the Arduino, and programming it to turn off and on.
+**Objective:**
 
-#
-### **Required Components**
+The objective of this task is to create an Arduino sketch that blinks an LED connected to pin 13 with a specific on-off interval. 
 
-- [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)
-- [LED](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)
-- [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)
-- [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)
-- [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)
+**Components Required:**
 
-#
-### **Circuit**
+
+| Components            | Quantity | 
+| ------------------| --------------- |
+|  [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)      | 1     |
+|  [LED](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)        | 1    |
+|  [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)    | 1     |
+|  [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)     | 1      |
+|  [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)    |          |
+
+
+**Circuit**
 
 Now that we know the components we can set up our Arduino as shown below.
 
 ![CircuitDiagramTask1](/1_Blink/Images/CircuitDiagramTask1.png)
 
-#
-### **Programming**
 
-Open up the [Arduino IDE](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino-IDE-basics.aspx) on your computer.
+**Task Description:**
 
-Open File -> Example -> Basic -> Blink
+You are responsible for developing an Arduino sketch (code) that accomplishes the following tasks:
 
-![FilePath](/1_Blink/Images/FilePath.jpg)
+1. Initialize an integer variable named `LEDpin` and assign the value 13 to it. This variable will represent the Arduino pin connected to the LED.
 
-### **Code explained**
-The full code can be found [here](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/1_Blink/blink.ino).
+2. In the `setup()` method:
+   - Set the `LEDpin` as an output pin using the `pinMode()` function.
 
+3. In the `loop()` method:
+   - Turn the LED on by setting the `LEDpin` to HIGH using the `digitalWrite()` function.
+   - Wait for 1000 milliseconds (1 second) using the `delay()` function.
+   - Turn the LED off by setting the `LEDpin` to LOW.
+   - Wait for another 1000 milliseconds.
 
-The code has mainly 2 sections: void setup and void loop.
-Before starting to write these functions, we need to initialize all the variables.
-Here we need to initialize a variable for assigning the pin number, which is connected to the LED.
-<img src="/1_Blink/Images/InitializingVariable.png" width="850"/>
+4. The code in the `loop()` method should repeat the LED blinking process indefinitely.
 
-In the void setup assign LEDpin as OUTPUT.
+**Additional Considerations:**
 
-<img src="/1_Blink/Images/SetupFunction.png" width="500"/>
+- Verify that the LED is correctly connected to pin 13 on the Arduino board with the necessary current-limiting resistor.
+- Test the code on an Arduino board to verify that the LED blinks at the specified interval (1 second on, 1 second off).
 
-The void loop function can be used to turn on and turn off LED. This can be visible by putting certain delay between ON and OFF actions. LED can be turned ON and OFF or HIGH and LOW using digital write function. Turning the LED to HIGH, supplies 5V to the LED, and while turning it OFF, it comes back to 0V.
-
-
-<img src="/1_Blink/Images/LoopFunction.png" width="600"/>
-
-#
-### **Verify and Upload**
-
-Connect the board using its cable to the computer.
-
-In Arduino IDE, select correct board and port.
-
-Now, using verify button check for any errors in the program, and using upload button upload the code to the Arduino board.
-
-Now we can see the Built-in LED of the board blinking in fixed intervals.
-
-Try to experiment with increasing, decreasing or removing the delay.
+#### *The code for this task can be found [here](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/1_Blink/blink.ino)*
