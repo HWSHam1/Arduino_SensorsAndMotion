@@ -68,4 +68,4 @@ You are responsible for developing an Arduino sketch that achieves the following
 ![MonitorData](/5_Temperature/Images/MonitorData.png)
 
 
-##### *The code for this task can be found [here](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/4_DC_Motor/dc_motor_control/Task3_potentiometerControl.ino)*
+##### *The code for this task can be found [here](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/5_Temperature/temperature_sensor.ino)*
