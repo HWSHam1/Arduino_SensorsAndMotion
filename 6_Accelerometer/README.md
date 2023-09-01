@@ -63,7 +63,7 @@ Your task is to measure the perimeter of a computer keyboard using the accelerom
 2. Download the example code (accelerometer.io) to the Arduino.
 3. Begin recording data – you should see this appear on the serial monitor.
 4. Move the accelerometer around the computer keyboard.
-5. Copy and paste the accelerometer data from the serial monitor to the Excel file ([Accelerometer Example.xlsx](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/6_Accelerometer/Accelerometer%20data%20file%20example.xlsx))
+5. Copy and paste the accelerometer data from the serial monitor to the Excel file ([Accelerometer data file example.xlsx](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/6_Accelerometer/Accelerometer%20data%20file%20example.xlsx))
 
 What are the dimensions of the keyboard measured with the accelerometer? Measure the keyboard using a ruler or measuring tape. Compare the results – are they different? Why do you think this is?
 
