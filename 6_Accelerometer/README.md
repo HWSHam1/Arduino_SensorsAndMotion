@@ -10,6 +10,8 @@ Arduino Experiments
 
 Accelerometer
 
+## 
+
 ## Introduction:
 
 The Arduino is a powerful and adaptable microcontroller, but even it has its limitations. Fortunately, there are multiple addons, such as sensors, adapters, breakout boards and shields which can enhance or add features on top of the Arduino.
@@ -22,7 +24,15 @@ There are several different types of accelerometers. In this tutorial we will be
 
 _Figure 1: An Adafruit MMA8451 accelerometer with the X, Y and Z measurement axes labelled._
 
-## Required Components:
+## Components Required:
+
+| Components            | Quantity | 
+| ------------------| --------------- |
+|  [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)      | 1     |
+|  [Adafruit MMA8451 Accelerometer](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Accelerometer.aspx)         | 1    |
+|  [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)     | 1      |
+|  [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)    |          |
+
 
 - Arduino UNO
 - Adafruit MMA8451 Accelerometer
