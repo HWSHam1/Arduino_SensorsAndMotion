@@ -91,8 +91,6 @@ The code for this task can be found [here](https://github.com/HWSHam1/Arduino_Se
 
 ## Task 3:
 
-Using a DC motor driver and power supply, create a circuit and program that can read the position of a potentiometer and based on this adjust the speed of a motor.
-
 <p align="center">
   <img src="/4_DC_Motor/Images/Circuit Diagram 2.png" width="400" >
   
@@ -101,5 +99,10 @@ Using a DC motor driver and power supply, create a circuit and program that can 
 <p align="center">
 Figure 3: Circuit for Task 3
 </p>
+
+Using a DC motor driver and power supply, create a circuit and program that can read the position of a potentiometer and based on this adjust the speed of a motor.
+
+
 The code for this task can be found [here](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/4_DC_Motor/dc_motor_control/Task3_potentiometerControl.ino)
+
 
