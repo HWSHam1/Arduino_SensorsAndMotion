@@ -108,7 +108,7 @@ You are responsible for creating an Arduino sketch (code) that accomplishes the 
 - Pay attention to safety precautions when working with motors, including appropriate power supply voltage and current, and proper motor driver setup.
 - Be cautious when choosing the motorPin and wiring to avoid damaging the Arduino.
 
-##### *The code for this task can be found [here](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/4_DC_Motor/dc_motor_control/Task1_motorOnOff.ino)*
+##### *The code for this task can be found [Task1_motorOnOff.ino](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/4_DC_Motor/dc_motor_control/Task1_motorOnOff.ino)*
 
 ##
 
@@ -152,7 +152,7 @@ Your task is to create an Arduino sketch (code) that accomplishes the following:
 5. Test and calibrate the `delayTime` parameter to control the rate of acceleration and deceleration according to your motor's characteristics.
 
 
-##### *The code for this task can be found [here](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/4_DC_Motor/dc_motor_control/Task2_motorAcceleration.ino)*
+##### *The code for this task can be found at [Task2_motorAcceleration.ino](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/4_DC_Motor/dc_motor_control/Task2_motorAcceleration.ino)*
 
 
 ##
@@ -220,6 +220,6 @@ You are tasked with creating an Arduino sketch (code) that accomplishes the foll
 6. Upload the code to the Arduino board.
 
 
-##### *The code for this task can be found [Task3_potentiometerControl.ino](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/4_DC_Motor/dc_motor_control/Task3_potentiometerControl.ino)*
+##### *The code for this task can be found at [Task3_potentiometerControl.ino](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/4_DC_Motor/dc_motor_control/Task3_potentiometerControl.ino)*
 
 
