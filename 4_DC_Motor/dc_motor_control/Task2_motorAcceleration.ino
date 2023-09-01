@@ -14,7 +14,6 @@ void setup()
 {
   Serial.begin(9600);   // Set up the serial port;
   pinMode(motorPin, OUTPUT);// Set up the motor pin to be an output;
-  pinMode(potPin, INPUT); // Set up the potentiometer pin to be an input;
 }
 
 void loop()
