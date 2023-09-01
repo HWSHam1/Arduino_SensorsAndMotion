@@ -70,16 +70,50 @@ In this experiment, PWM will be used to control the light output of a multicolou
 PWM can be achieved with Arduino using the “analogWrite” command. 
 
 
-**Use the code named rgb_led for these exercises**
+## **Task 1: RGB LED Color Changer with Arduino**
+
+**Objective:**
+
+The goal of this task is to create an Arduino sketch for controlling an RGB LED, allowing it to display various colors. The code should initialize the necessary pins, cycle through different colors, and provide an understanding of how to manipulate RGB LED colors using PWM (Pulse Width Modulation).
+
+**Materials Needed:**
+
+| Number            |    Components   | 
+| ------------------| --------------- |
+|  [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)      | 1               |
+|  [LED RGB](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)          | 1               |
+|  [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)    | 3               |
+|  [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)     | 1               |
+|  [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)    |                 |
+
+**Circuit Diagram:**
 
 
-## **Task 1**
+**Task Description:**
 
-Write a program to light the LED in red, blue, and green. Try lighting the LED with other colours. 
-The code for this task can be found here: [changeColours.ino](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/3_RGB_LED/rgb_led/Task1_ChangeColours.ino)
+You are responsible for creating an Arduino sketch (code) that accomplishes the following tasks:
 
-### **Code Explained**
-Code has 2 parts, set up function and loop function.
+1. **Initialize Variables:** Initialize variables for the red, green, and blue pin numbers. Assign pin 9, 10, and 11 to these variables, respectively. This should be clearly documented in the code comments.
+
+2. **Setup Function:** In the setup() function, initialize serial communication at a baud rate of 9600 to enable debugging and setup the redPin, greenPin, and bluePin as outputs.
+
+3. **Loop Function:** In the loop() function, repeatedly cycle through different colors by changing the PWM values on the red, green, and blue pins. Here are the color transitions you should implement with a delay of 1 second (1000 milliseconds) between each color:
+
+   - Set the RGB LED to red (255, 0, 0).
+   - Set the RGB LED to blue (0, 0, 255).
+   - Set the RGB LED to green (0, 255, 0).
+   - Set the RGB LED to purple (128, 0, 128).
+   - Turn off the RGB LED (0, 0, 0).
+     
+4. Verify and Upload the code to Arduino board
+
+**Additional Considerations:**
+
+- Test the code to ensure that it correctly transitions between the specified colors and that the RGB LED responds as expected.
+
+
+##### *The code for this task can be found [changeColours.ino](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/3_RGB_LED/rgb_led/Task1_ChangeColours.ino)
+
 ## **Task 2**
 
 Write a program to slowly fade the red LED in and out, you may find the program “fading” under File/Examples/03.Analog useful.
