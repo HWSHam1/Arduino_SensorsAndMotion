@@ -53,7 +53,7 @@ _Figure 2: Accelerometer Circuit_
 
 For this sensor you will need to import libraries. A library is a set of code that was previously written that can be called upon when building your own code. In programming, the use of libraries saves a vast amount of time. They reduce the time spent programming an application by providing ready-made code to access a particular function.
 
-If the "Adafruit MMA8451 library" is not in the installed version of the Arduino IDE, then instructions to install it are found in "Arduino package installation for MMA8451.pdf".
+If the "Adafruit MMA8451 library" is not in the installed version of the Arduino IDE, then instructions to install it can be found at [InstallingLibraries.md](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/6_Accelerometer/InstallingLibraries.md)
 
 ## Estimate velocity and displacement:
 
