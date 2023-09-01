@@ -87,12 +87,6 @@ Try slowly accelerating the motor to full speed, then back down to zero.
 Figure 2: Circuit for Tasks 1 and 2
 </p>
 
-
-
-##
-
-##
-
 ##
 
 ## Task 3:
