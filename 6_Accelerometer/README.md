@@ -45,7 +45,7 @@ Assemble the circuit as shown bellow
 - Connect the **SCL** pin to analogue input **A5**
 - Connect the **SDA** pin to analogue input **A4**
 
-![Circuit Diagram](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/6_Accelerometer/Images/Accelerometer.png)
+![Circuit Diagram](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/6_Accelerometer/Images/CircuitDiagram_Accelerometer.png)
 
 _Figure 2: Accelerometer Circuit_
 
@@ -73,3 +73,5 @@ Accelerometers are widely used in gesture controllers and video gaming console c
 
 - **How does temperature vary in a room?** Create a circuit that measures both acceleration and temperature. Record the data and graph the temperature at different locations.
 - **Can the accelerometer be used as a damage warning trigger?** Many mobile devices have accelerometers built-in to give warning of sudden falls. If a high acceleration is detected, the device is switched into a safe mode or hard disks are parked to prevent damage. Create a circuit that reads acceleration, checks if it is greater than a preset threshold, then lights up an LED if acceleration is too high.
+
+##### *The code for this task can be found [here](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/6_Accelerometer/accelerometer.ino)*
