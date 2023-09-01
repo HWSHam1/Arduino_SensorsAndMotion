@@ -24,7 +24,7 @@ An alternative mode of controlling the speed of the motor is Pulse Width Modulat
 
 The ratio of "on" time to the total time is called the duty cycle, and variation of the duty cycle can be used to control the motor speed.
 
-## ![](RackMultipart20230831-1-c9h0xs_html_6d576bbad04b9f2e.png)
+## 
 <p align="center">
   <img src="/4_DC_Motor/Images/PWM.png" width="400" title="Pulse Width Modulation">
   
@@ -67,17 +67,6 @@ When the motor is spinning and suddenly turned off, the magnetic field inside it
 
 Connect the side of the diode with the band (cathode) to 5V. Connect the other side of the diode (anode) to the black wire on the motor.
 
-## Task 1:
-
-Turn the motor on and off using the digitalWrite(); command.
-
-## Task 2:
-
-Try slowly accelerating the motor to full speed, then back down to zero.
-
-![](RackMultipart20230831-1-c9h0xs_html_e89fa1e370771bbb.png)
-
-
 <p align="center">
   <img src="/4_DC_Motor/Images/Circuit Diagram 1.png" width="400" >
   
@@ -87,13 +76,23 @@ Try slowly accelerating the motor to full speed, then back down to zero.
 Figure 2: Circuit for Tasks 1 and 2
 </p>
 
+## Task 1:
+
+Turn the motor on and off using the digitalWrite(); command.
+The code for this task can be found [here](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/4_DC_Motor/dc_motor_control/Task1_motorOnOff.ino)
+
+## Task 2:
+
+Try slowly accelerating the motor to full speed, then back down to zero.
+The code for this task can be found [here](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/4_DC_Motor/dc_motor_control/Task2_motorAcceleration.ino)
+
+
 ##
 
 ## Task 3:
 
 Using a DC motor driver and power supply, create a circuit and program that can read the position of a potentiometer and based on this adjust the speed of a motor.
 
-![](RackMultipart20230831-1-c9h0xs_html_1797f248b3db1e4d.png)
 <p align="center">
   <img src="/4_DC_Motor/Images/Circuit Diagram 2.png" width="400" >
   
@@ -102,5 +101,5 @@ Using a DC motor driver and power supply, create a circuit and program that can 
 <p align="center">
 Figure 3: Circuit for Task 3
 </p>
-
+The code for this task can be found [here](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/4_DC_Motor/dc_motor_control/Task3_potentiometerControl.ino)
 
