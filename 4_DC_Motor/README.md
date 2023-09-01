@@ -209,7 +209,9 @@ You are tasked with creating an Arduino sketch (code) that accomplishes the foll
    - Calculates the `speed` of the motor based on the potentiometer reading. The formula used is:
      ```
      speed = val / highestValueFromPotentiometer * 255;
+
      ```
+
      Here, `highestValueFromPotentiometer` is a constant representing the highest expected range value read from the potentiometer.
    - Sets the motor speed using `analogWrite()` to the `motorPin` based on the calculated `speed`.
 
