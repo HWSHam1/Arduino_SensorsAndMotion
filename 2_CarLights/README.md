@@ -10,7 +10,7 @@ Arduino Experiments
 
 This task can be divided into 4 sub tasks.
 
------------------------------------------------------
+
 
 ##
 
@@ -152,7 +152,6 @@ The objective of this task is to create an Arduino project that monitors the sta
      - Ensure that all LEDs are turned off in any other case.
    - Upload the code to your Arduino.
 
----------------------------------------------------
 
 ##
 
@@ -162,5 +161,5 @@ The objective of this task is to create an Arduino project that monitors the sta
 
 
 
-Now consider the situation of 2 doors and trunk. To make it little bit more complicated, in this case we will 3 LEDs. If doors are only open (either 1 door or both doors), Red light will be ON. If trunk is only open, Blue light will be ON. If trunk and at least one of doors is open, Green light will be ON. While both the doors and the trunk are closed, the light will be OFF.
+
 
