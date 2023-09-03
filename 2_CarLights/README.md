@@ -14,7 +14,7 @@ This task can be divided into 4 sub tasks.
 
 ##
 
-## **Task 1: Simulating Car Door with Interior LED Control **
+## **Task 1: Simulating Car Door with Interior LED Control**
 
 **Objective:**
 The objective of this task is to create an Arduino project that simulates the opening and closing of a car door using a push button. Based on the status of the push button (pressed or released), control the illumination of an interior LED, representing the car's interior light. 
