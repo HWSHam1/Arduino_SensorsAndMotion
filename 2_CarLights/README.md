@@ -69,12 +69,16 @@ The objective of this task is to enhance the previous Arduino project that simul
 
 **Materials Needed:**
 
-- [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)
-- [LED](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)
-- [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)
-- [Pushbutton](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Push-button.aspx))
-- [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)
-- [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)
+| Components            |    Quantity   | 
+| ------------------| --------------- |
+|  [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)      | 1               |
+|  [LED (yellow)](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)          | 1               |
+|  [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)    | 1               |
+|  [Push Button](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Push-button.aspx)  | 1       |
+|  [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)     | 1               |
+|  [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)    |                 |
+
+
 
 **Task Description:**
 
@@ -117,23 +121,25 @@ The objective of this task is to enhance the previous Arduino project that simul
 The objective of this task is to create an Arduino project that monitors the status of car doors and the trunk using push buttons and controls three LEDs to indicate the vehicle's security status. The LEDs will display different colors based on the combination of open/closed doors and trunk.
 
 **Materials Needed:**
-1. Arduino board (e.g., Arduino Uno)
-2. Three LEDs (green, yellow, red)
-3. Three push buttons (for doors and trunk)
-4. Resistors (220Ω for LEDs, optional pull-down resistors for buttons)
-5. Jumper wires
-6. Breadboard (optional but recommended for easy prototyping)
-7. USB cable for power and programming
+
+| Components            |    Quantity   | 
+| ------------------| --------------- |
+|  [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)      | 1               |
+|  [LED (yellow)](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)          | 3               |
+|  [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)    | 3               |
+|  [10kΩ resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)    | 3               |
+|  [Push Button](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Push-button.aspx)  | 3       |
+|  [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)     | 1               |
+|  [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)    |                 |
+
+
+
+
 
 **Task Description:**
 
 **1. Circuit Diagram:**
-   - Connect each LED's anode (longer lead) to a digital pin on the Arduino board (e.g., green LED to Pin 10, yellow LED to Pin 9, red LED to Pin 8).
-   - Connect each LED's cathode (shorter lead) to a 220Ω resistor and connect the other end of the resistor to the Arduino's ground (GND) pin.
-   - Connect one terminal of each push button to a digital pin on the Arduino (e.g., door button 1 to Pin 3, door button 2 to Pin 5, trunk button to Pin 7).
-   - Connect the other terminal of each push button to the Arduino's ground (GND) pin.
-   - Optionally, use pull-down resistors (10kΩ) to connect each button's terminal to the ground to ensure stable readings.
-
+   
 **2. Arduino Code:**
    - Define constants for LED pins and button pins.
    - In the setup() function:
