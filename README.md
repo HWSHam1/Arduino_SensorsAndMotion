@@ -46,12 +46,12 @@ The Arduino Lab Course consists of six engaging experiments, each focusing on di
    - Read the position of a potentiometer and adjust the speed of a DC motor accordingly.
 
 5. **Temperature Sensor:**
-   - Interface with a temperature sensor (e.g., DHT22).
+   - Interface with a temperature sensor.
    - Read and display temperature and humidity data.
    - Explore real-world sensing applications.
 
 6. **Accelerometer:**
-   - Work with an accelerometer sensor (e.g., MPU6050).
+   - Work with an accelerometer sensor.
    - Measure motion and orientation.
    - Explore applications in gaming and motion-based projects.
 
