@@ -100,19 +100,6 @@ The objective of this task is to enhance the previous Arduino project that simul
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ##
 
 ## **Task 3: Simulating 2 car doors**
@@ -141,7 +128,7 @@ The objective of this task is to create an Arduino project that monitors the sta
 
 **1. Circuit Diagram:**
 
-![Circuit Diagram](/2_CarLights/Images/TwoDoor.png)
+![Circuit Diagram](/2_CarLights/Images/TwoDoors.png)
    
 **2. Arduino Code:**
    - Define constants for LED pins and button pins.
@@ -185,7 +172,7 @@ The objective of this task is to create an Arduino project that monitors the sta
 
 **1. Circuit Diagram:**
 
-![Circuit Diagram](/2_CarLights/Images/DoorAndTrunk.png)
+![Circuit Diagram](/2_CarLights/Images/DoorsAndTrunk.png)
    
 **2. Arduino Code:**
    - Define constants for LED pins and button pins.
