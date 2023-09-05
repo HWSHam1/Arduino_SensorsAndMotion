@@ -46,6 +46,7 @@ The objective of this task is to create an Arduino project that simulates the op
 
 1. **Circuit Diagram:**
 
+![Circuit Diagram](/2_CarLights/Images/OneDoor.png)
 
   
 2. **Arduino Code:**
@@ -114,7 +115,51 @@ The objective of this task is to enhance the previous Arduino project that simul
 
 ##
 
-## **Task 3: Car Security Status Indicator with Arduino**
+## **Task 3: Simulating 2 car doors**
+
+
+**Objective:**
+The objective of this task is to create an Arduino project that monitors the status of car doors and the trunk using push buttons and controls three LEDs to indicate the vehicle's security status. The LEDs will display different colors based on the combination of open/closed doors and trunk.
+
+**Materials Needed:**
+
+| Components            |    Quantity   | 
+| ------------------| --------------- |
+|  [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)      | 1               |
+|  [LED (yellow)](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)          | 3               |
+|  [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)    | 1               |
+|  [10kΩ resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)    | 2               |
+|  [Push Button](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Push-button.aspx)  | 2       |
+|  [Breadboard](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Breadboard.aspx)     | 1               |
+|  [Jumper cables](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Wire.aspx)    |                 |
+
+
+
+
+
+**Task Description:**
+
+**1. Circuit Diagram:**
+
+![Circuit Diagram](/2_CarLights/Images/TwoDoor.png)
+   
+**2. Arduino Code:**
+   - Define constants for LED pins and button pins.
+   - In the setup() function:
+     - Initialize LED pins as OUTPUT.
+     - Initialize button pins as INPUT with internal pull-up resistors.
+     - Set all LEDs to OFF (LOW) initially.
+   - In the loop() function:
+     - Read the state of each button to determine the status of doors and trunk.
+     - Based on button readings, control the LEDs to indicate the vehicle's security status.
+     - Ensure that all LEDs are turned off in any other case.
+   - Upload the code to your Arduino.
+
+
+##
+
+
+## **Task 4: Car Security Status Indicator**
 
 
 **Objective:**
@@ -139,6 +184,8 @@ The objective of this task is to create an Arduino project that monitors the sta
 **Task Description:**
 
 **1. Circuit Diagram:**
+
+![Circuit Diagram](/2_CarLights/Images/DoorAndTrunk.png)
    
 **2. Arduino Code:**
    - Define constants for LED pins and button pins.
@@ -154,7 +201,6 @@ The objective of this task is to create an Arduino project that monitors the sta
 
 
 ##
-
 
 
 
