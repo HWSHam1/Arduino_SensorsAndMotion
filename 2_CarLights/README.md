@@ -46,7 +46,16 @@ The objective of this task is to create an Arduino project that simulates the op
 
 1. **Circuit Diagram:**
 
-![Circuit Diagram](/2_CarLights/Images/OneDoor.png)
+
+
+<p align="center">
+  <img src="/2_CarLights/Images/OneDoor.png" width="800">
+  
+</p>
+<p align="center">
+Figure 4: Circuit for Tasks 1,2,3
+</p>
+
 
   
 2. **Arduino Code:**
@@ -128,7 +137,17 @@ The objective of this task is to create an Arduino project that monitors the sta
 
 **1. Circuit Diagram:**
 
-![Circuit Diagram](/2_CarLights/Images/TwoDoors.png)
+
+
+<p align="center">
+  <img src="/2_CarLights/Images/TwoDoors.png" width="700">
+  
+</p>
+<p align="center">
+  
+Figure 4: Circuit for Tasks 1,2,3
+</p>
+
    
 **2. Arduino Code:**
    - Define constants for LED pins and button pins.
@@ -172,7 +191,13 @@ The objective of this task is to create an Arduino project that monitors the sta
 
 **1. Circuit Diagram:**
 
-![Circuit Diagram](/2_CarLights/Images/DoorsAndTrunk.png)
+
+<p align="center">
+  <img src="/2_CarLights/Images/DoorsAndTrunk.png" width="800">
+  
+</p>
+<p align="center">
+
    
 **2. Arduino Code:**
    - Define constants for LED pins and button pins.
