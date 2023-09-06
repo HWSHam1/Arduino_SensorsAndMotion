@@ -1,60 +1,100 @@
+/* 
+ HERIOT-WATT UNIVERSITY
+ School of Engineering and Physical Sciences
+ Mechanical Engineering Laboratory
+ Arduino Experiments
+ 
+ Car Lights
+ Controlling 3 LEDs with 3 Push buttons.
+ */
+
+// Define constants for LED pins
 #define LED_GREEN 10
-#define LED_YELLOW 8
-#define LED_RED 12
+#define LED_YELLOW 9
+#define LED_RED 8
 
-#define DOOR_1 3
-#define DOOR_2 5
-#define TRUNK 7
-void setup() 
-  {
-  
-    pinMode(LED_GREEN, OUTPUT);
-    pinMode(LED_YELLOW, OUTPUT);
-    pinMode(LED_RED, OUTPUT);
-    
-    
-    pinMode(DOOR_1, INPUT);
-    pinMode(DOOR_2, INPUT);
-    pinMode(TRUNK, INPUT);
+// Define constants for button pins
+#define DOOR_1_BUTTON 3
+#define DOOR_2_BUTTON 5
+#define TRUNK_BUTTON 7
 
-  }
-void loop() 
-  {
-    if ((digitalRead(DOOR_1) == HIGH && digitalRead (DOOR_2) == HIGH)&& digitalRead (TRUNK) == HIGH) 
-    {
-      digitalWrite (LED_RED, HIGH);
-      digitalWrite (LED_YELLOW, HIGH); 
-      digitalwrite (LED_GREEN, HIGH);
-    }
+void setup() {
+  // Initialize LED pins as OUTPUT
+  pinMode(LED_GREEN, OUTPUT);
+  pinMode(LED_YELLOW, OUTPUT);
+  pinMode(LED_RED, OUTPUT);
+
+  // Initialize button pins as INPUT with internal pull-up resistors
+  pinMode(DOOR_1_BUTTON, INPUT_PULLUP);
+  pinMode(DOOR_2_BUTTON, INPUT_PULLUP);
+  pinMode(TRUNK_BUTTON, INPUT_PULLUP);
   
-    else if ((digitalRead(DOOR_1) == HIGH || digitalRead (DOOR_2) == HIGH)&& digitalRead (TRUNK) == HIGH) 
-    {
-      digitalWrite (LED_YELLOW, HIGH); 
-      digitalWrite (LED_GREEN, HIGH);
-      digitalWrite (LED_RED, LOW);
-    }
+  // Initialize LEDs to OFF (LOW)
+  digitalWrite(LED_GREEN, LOW);
+  digitalWrite(LED_YELLOW, LOW);
+  digitalWrite(LED_RED, LOW);
+}
+
+void loop() {
+  // Read the state of each button
+  int door1Status = digitalRead(DOOR_1_BUTTON);
+  int door2Status = digitalRead(DOOR_2_BUTTON);
+  int trunkStatus = digitalRead(TRUNK_BUTTON);
   
-    else if ((digitalRead (DOOR_1) == HIGH| digitalRead (DOOR_2) == HIGH)&& digitalRead(TRUNK) == LOW) 
-    {
-      digitalWrite (LED_YELLOW, HIGH);
-      digitalWrite(LED_GREEN, LOW);
-      digitalwrite(LED_RED, LOW);
-    
-    } 
-    
-    else if ((digitalRead (DOOR_1) == LOW && digitalRead (DOOR_2) == LOW)&& digitalRead (TRUNK) == HIGH) 
-    {
-      digitalwrite (LED_GREEN, HIGH); 
-      digitalwrite (LED_YELLOW, LOW);
-      digitalwrite (LED_RED, LOW);
-    }
-    
-    else 
-    {
-      delay (2000);
-      digitallrite(LED_GREEN, LOW);
-      digitalwrite (LED_RED, LOW);
-      digitalwrite (LED_YELLOW, LOW);
-    }
-    
+  // Determine the security status based on button readings
+  if (!trunkStatus && (door1Status || door2Status)) {
+    // Trunk closed, one or both doors open
+    digitalWrite(LED_YELLOW, HIGH);
+    digitalWrite(LED_GREEN, LOW);
+    digitalWrite(LED_RED, LOW);
+  } else if (!trunkStatus && (door1Status || door2Status)) {
+    // Trunk closed, one door open
+    digitalWrite(LED_YELLOW, HIGH);
+    digitalWrite(LED_GREEN, HIGH);
+    digitalWrite(LED_RED, LOW);
+  } else if (trunkStatus && !door1Status && !door2Status) {
+    // Trunk open, all doors closed
+    digitalWrite(LED_GREEN, HIGH);
+    digitalWrite(LED_YELLOW, LOW);
+    digitalWrite(LED_RED, LOW);
+  } else if (door1Status && door2Status && trunkStatus) {
+    // All doors and trunk open
+    digitalWrite(LED_GREEN, HIGH);
+    digitalWrite(LED_YELLOW, HIGH);
+    digitalWrite(LED_RED, HIGH);
+  } else {
+    // In any other case, turn off all LEDs
+    digitalWrite(LED_GREEN, LOW);
+    digitalWrite(LED_YELLOW, LOW);
+    digitalWrite(LED_RED, LOW);
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
