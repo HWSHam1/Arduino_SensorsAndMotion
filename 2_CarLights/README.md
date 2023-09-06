@@ -66,7 +66,7 @@ Figure 4: Circuit for Tasks 1,2,3
      - If the push button is released (HIGH), turn off the LED by setting the LED pin to LOW.
    - Upload the code to your Arduino.
 
-
+##### *The code for this task can be found at [Task1_DoorLight.ino](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/2_CarLights/CarLights/Task1_DoorLight.ino)*
 
 ##
 
@@ -105,6 +105,7 @@ The objective of this task is to enhance the previous Arduino project that simul
    - Upload the code to your Arduino board.
 
 
+##### *The code for this task can be found at [Task2_DoorLightOffWithDelay.ino](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/2_CarLights/CarLights/Task2_DoorLightOffWithDelay.ino)*
 
 
 
@@ -115,14 +116,15 @@ The objective of this task is to enhance the previous Arduino project that simul
 
 
 **Objective:**
-The objective of this task is to create an Arduino project that monitors the status of car doors and the trunk using push buttons and controls three LEDs to indicate the vehicle's security status. The LEDs will display different colors based on the combination of open/closed doors and trunk.
+Create an Arduino sketch to control a yellow LED, indicating the status of two doors using push buttons. When at least one of the doors is open (push button pressed), the yellow LED should be turned on. If both doors are closed (push buttons released), the LED should be turned off after a brief delay.
+
 
 **Materials Needed:**
 
 | Components            |    Quantity   | 
 | ------------------| --------------- |
 |  [Arduino UNO](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Arduino.aspx)      | 1               |
-|  [LED (yellow)](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)          | 3               |
+|  [LED (yellow)](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/LED.aspx)          | 1               |
 |  [330Ω resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)    | 1               |
 |  [10kΩ resistor](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Resistors.aspx)    | 2               |
 |  [Push Button](https://heriotwatt.sharepoint.com/sites/ArduinoTutorials/SitePages/Push-button.aspx)  | 2       |
@@ -148,21 +150,29 @@ The objective of this task is to create an Arduino project that monitors the sta
 Figure 4: Circuit for Tasks 1,2,3
 </p>
 
-   
-**2. Arduino Code:**
-   - Define constants for LED pins and button pins.
-   - In the setup() function:
-     - Initialize LED pins as OUTPUT.
-     - Initialize button pins as INPUT with internal pull-up resistors.
-     - Set all LEDs to OFF (LOW) initially.
-   - In the loop() function:
-     - Read the state of each button to determine the status of doors and trunk.
-     - Based on button readings, control the LEDs to indicate the vehicle's security status.
-     - Ensure that all LEDs are turned off in any other case.
-   - Upload the code to your Arduino.
+
+**1. Define Pin Assignments:**
+   - Define the pin numbers for the yellow LED and the two push buttons using `#define` statements. This allows for easy pin assignment adjustments if necessary.
+
+**2. Initialize Pin Configurations:**
+   - In the `setup()` function, set up the pin configurations:
+     - Configure the yellow LED pin as an output using `pinMode()`.
+     - Configure the door pins as inputs using `pinMode()`.
+
+**3. Implement Main Logic:**
+   - In the `loop()` function, continuously monitor the status of the two doors using `digitalRead()`.
+   - If at least one of the doors is open (button pressed), turn on the yellow LED using `digitalWrite()`.
+   - If both doors are closed (both buttons released), wait for 2 seconds (or a specified duration) using `delay()` to avoid rapid LED flickering.
+   - After the delay, turn off the yellow LED.
+
+**4. Verify and Upload:**
+  
+   - Upload the code to your Arduino board.
 
 
 ##
+
+##### *The code for this task can be found at [Task3_2Doors.ino](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/2_CarLights/CarLights/Task3_TwoDoors.ino)*
 
 
 ## **Task 4: Car Security Status Indicator**
@@ -217,7 +227,7 @@ The objective of this task is to create an Arduino project that monitors the sta
 
 
 
-
+##### *The code for this task can be found at [Task4_AllLightsOn.ino](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/2_CarLights/CarLights/Task4_AllLightsOn.ino)*
 
 
 
