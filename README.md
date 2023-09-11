@@ -23,6 +23,7 @@ Arduino is renowned for its versatility and ease of use, making it an ideal plat
 - Build a strong foundation for pursuing more advanced Arduino projects.
 
 **Course Structure:**
+
 The Arduino Lab Course consists of six engaging experiments, each focusing on different aspects of Arduino programming and electronics. Here's an overview of the experiments you will undertake:
 
 1. **LED Blink:**
@@ -55,13 +56,11 @@ The Arduino Lab Course consists of six engaging experiments, each focusing on di
    - Measure motion and orientation.
    - Explore applications in gaming and motion-based projects.
 
-
 **Course Benefits:**
+
 By the end of this Arduino Lab Course, you will have acquired valuable skills that will enable you to create your own Arduino-based projects and prototypes. Whether you're interested in home automation, robotics, or interactive art, the knowledge gained from this course will serve as a solid foundation for your future endeavors.
 
 So, let's get started! Join us on this exciting journey into the world of Arduino and electronics, and unlock the endless possibilities of creating innovative and interactive devices. Happy experimenting!
-
-
 
 
 | Experiments  |
@@ -74,3 +73,7 @@ So, let's get started! Join us on this exciting journey into the world of Arduin
 |   [Accelerometer](https://github.com/HWSHam1/Arduino_SensorsAndMotion/tree/main/6_Accelerometer)  | 
 
 
+**Acknowledgements**
+
+The original tutorial files and code were created by [Karolina Judzentyte](https://github.com/karolinajudzentyte) and [Steven Hammer](https://github.com/HWSHam1/) (2020).
+The tutorials were revised and expanded by [Sheena Saxena](https://github.com/SheenaShabana) (2023).
