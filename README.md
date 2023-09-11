@@ -76,4 +76,4 @@ So, let's get started! Join us on this exciting journey into the world of Arduin
 **Acknowledgements**
 
 The original tutorial files and code were created by [Karolina Judzentyte](https://github.com/karolinajudzentyte) and [Steven Hammer](https://github.com/HWSHam1/) (2020).
-The tutorials were revised and expanded by [Sheena Saxena](https://github.com/SheenaShabana) (2023).
+The tutorials were revised and expanded by [Sheena Shabana](https://github.com/SheenaShabana) (2023).
