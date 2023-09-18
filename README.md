@@ -77,3 +77,4 @@ So, let's get started! Join us on this exciting journey into the world of Arduin
 
 The original tutorial files and code were created by [Karolina Judzentyte](https://github.com/karolinajudzentyte) and [Steven Hammer](https://github.com/HWSHam1/) (2020).
 The tutorials were revised and expanded by [Sheena Shabana](https://github.com/SheenaShabana) (2023).
+[Tutorial 6](https://github.com/HWSHam1/Arduino_SensorsAndMotion/tree/main/6_Accelerometer) uses some code (with modifications) from [Adafruit](https://www.adafruit.com/products/2019) to communicate with the MMA8451 accelerometer board.
