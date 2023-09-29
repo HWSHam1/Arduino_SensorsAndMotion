@@ -10,7 +10,7 @@
 
 // Define Constants:
 #define LED_YELLOW 8     // Define the LED pin as pin 8
-#define DOOR 3           // Define the door sensor pin as pin 3
+#define DOOR 7           // Define the door sensor pin as pin 3
 
 void setup() {
   // Initialization:
