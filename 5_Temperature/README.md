@@ -34,7 +34,7 @@ Use the data given from Serial Monitor and plot it in a spreadsheet.
 
 **Circuit Diagram:**
 
-![Circuit Diagram](/5_Temperature/Images/Circuit Diagram.png)
+[Circuit Diagram](/5_Temperature/Images/Circuit Diagram.png)
 
 
 **Task Description:**
