@@ -55,7 +55,7 @@ Assemble the circuit as shown bellow
 - Connect the **SCL** pin to analogue input **A5**
 - Connect the **SDA** pin to analogue input **A4**
 
-![Circuit Diagram](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/6_Accelerometer/Images/CircuitDiagram_Accelerometer.png)
+![Circuit Diagram](https://github.com/HWSHam1/Arduino_SensorsAndMotion/blob/main/6_Accelerometer/Images/Arduino%20with%20MMA8451%20accelerometer%20circuit%20diagram.png)
 
 _Figure 2: Accelerometer Circuit_
 
