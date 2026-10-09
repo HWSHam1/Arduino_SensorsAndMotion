@@ -40,7 +40,7 @@ Use the data given from Serial Monitor and plot it in a spreadsheet.
 
 You are responsible for developing an Arduino sketch that achieves the following objectives:
 
-1. **Connect the Temperature Sensor:** Connect the temperature sensor to the Arduino board following the provided wiring diagram or documentation. Ensure that you specify the correct analog pin for the temperature sensor (e.g., `temperaturePin = 0`).
+1. **Connect the Temperature Sensor:** Connect the temperature sensor to the Arduino board following the provided wiring diagram or documentation (**WARNING:** the TMP36 can heat up if the positive and negative connections are mixed up. __Check the wiring diagram carefully__). Ensure that you specify the correct analogue pin for the temperature sensor (e.g., `temperaturePin = A0`).
 
 2. **Set Up the Serial Communication:** Configure the serial communication at a baud rate of 9600, and print a header line with column names (e.g., "voltage," "deg C," and "deg K") to make data logging easier.
 
